@@ -19,7 +19,7 @@ const mint = generateSigner(umi);
     let tx = await createNft(umi, {
         mint,
         name: "Jeff Victory",
-        uri: "https://gateway.irys.xyz/Fj2tzuxTSzVdZ4AUQUw9L5yrrvSuBMprabu7Y9C74SyZ",
+        uri: "https://gateway.irys.xyz/4FPJXo5RcRM4qsHkTh1iR25p2rzGp2UgZMH9LLrPPfru",
         sellerFeeBasisPoints: percentAmount(5),
 
     })
